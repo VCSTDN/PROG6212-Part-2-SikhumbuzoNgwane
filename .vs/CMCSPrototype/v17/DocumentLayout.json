@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|c:\\users\\family\\source\\repos\\cmcsprototype\\views\\home\\lecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|solutionrelative:views\\home\\lecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|c:\\users\\family\\source\\repos\\cmcsprototype\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LecturerClaim.cshtml",
+              "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Home\\LecturerClaim.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\LecturerClaim.cshtml",
+              "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Home\\LecturerClaim.cshtml",
+              "RelativeToolTip": "Views\\Home\\LecturerClaim.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T18:21:13.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T18:04:25.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T18:04:25.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -68,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|c:\\users\\family\\source\\repos\\cmcsprototype\\views\\home\\claimstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|solutionrelative:views\\home\\claimstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|c:\\users\\family\\source\\repos\\cmcsprototype\\views\\home\\coordinatorapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|solutionrelative:views\\home\\coordinatorapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|c:\\users\\family\\source\\repos\\cmcsprototype\\views\\home\\lecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSPrototype.csproj|solutionrelative:views\\home\\lecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ClaimStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Home\\ClaimStatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ClaimStatus.cshtml",
+              "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Home\\ClaimStatus.cshtml*",
+              "RelativeToolTip": "Views\\Home\\ClaimStatus.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T18:40:19.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoordinatorApproval.cshtml",
+              "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Home\\CoordinatorApproval.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CoordinatorApproval.cshtml",
+              "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Home\\CoordinatorApproval.cshtml",
+              "RelativeToolTip": "Views\\Home\\CoordinatorApproval.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T18:33:51.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LecturerClaim.cshtml",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Home\\LecturerClaim.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\LecturerClaim.cshtml",
@@ -47,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -55,12 +89,11 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T18:10:14.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T18:10:14.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -72,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -84,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSPrototype\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

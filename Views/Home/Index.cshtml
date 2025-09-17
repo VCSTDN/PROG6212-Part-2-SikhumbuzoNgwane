@@ -1,8 +1,14 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to the CMCS Prototype</h1>
+    <p class="lead">Choose an action below to begin:</p>
+
+    <div class="d-grid gap-3 col-6 mx-auto mt-4">
+        <a href="/Home/LecturerClaim" class="btn btn-primary btn-lg">Submit Lecturer Claim</a>
+        <a href="/Home/CoordinatorApproval" class="btn btn-success btn-lg">Verify & Approve Claims</a>
+        <a href="/Home/ClaimStatus" class="btn btn-info btn-lg">Track Claim Status</a>
+    </div>
 </div>

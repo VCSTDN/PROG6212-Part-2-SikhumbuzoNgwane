@@ -95,3 +95,4 @@ C:\Users\Family\source\repos\CMCSPrototype\obj\Debug\net9.0\refint\CMCSPrototype
 C:\Users\Family\source\repos\CMCSPrototype\obj\Debug\net9.0\CMCSPrototype.pdb
 C:\Users\Family\source\repos\CMCSPrototype\obj\Debug\net9.0\CMCSPrototype.genruntimeconfig.cache
 C:\Users\Family\source\repos\CMCSPrototype\obj\Debug\net9.0\ref\CMCSPrototype.dll
+C:\Users\Family\source\repos\CMCSPrototype\obj\Debug\net9.0\CMCSPrototype.sourcelink.json

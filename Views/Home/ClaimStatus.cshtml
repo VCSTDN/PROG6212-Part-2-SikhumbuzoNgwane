@@ -1,10 +1,59 @@
-﻿@{
+﻿@model IEnumerable<CMCSApp.Models.Claim>
+@{
     ViewData["Title"] = "Claim Status";
 }
 
 <h2>Track Claim Status</h2>
-<ul class="list-group">
-    <li class="list-group-item">Claim #001 - Approved :) </li>
-    <li class="list-group-item">Claim #002 - Pending  :| </li>
-    <li class="list-group-item">Claim #003 - Rejected :( </li>
-</ul>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Lecturer</th>
+            <th>Hours</th>
+            <th>Rate</th>
+            <th>Document</th>
+            <th>Status</th>
+            <th>Submitted At (UTC)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.ClaimId</td>
+                <td>@c.LecturerName</td>
+                <td>@c.HoursWorked</td>
+                <td>@String.Format("{0:C}", c.HourlyRate)</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(c.DocumentFileName))
+                    {
+                        <a href="~/uploads/@c.DocumentFileName" target="_blank">View</a>
+                    }
+                </td>
+                <td>
+                    @if (c.Status == "Pending")
+                    {
+                        <span class="badge bg-warning text-dark">@c.Status</span>
+                    }
+                    else if (c.Status == "Approved")
+                    {
+
+                        <span class="badge bg-success">@c.Status</span>
+                    }
+                    else if (c.Status == "Rejected")
+                    {
+
+                        <span class="badge bg-danger">@c.Status</span>
+                    }
+                    else
+                    {
+
+                        @c.Status
+                    }
+                </td>
+                <td>@c.SubmittedAt.ToString("yyyy-MM-dd HH:mm")</td>
+            </tr>
+        }
+    </tbody>
+</table>

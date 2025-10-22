@@ -27,11 +27,24 @@ namespace CMCSApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> LecturerClaim(IFormFile supportDoc, string lecturerName, int hoursWorked, decimal hourlyRate, string notes)
+        public async Task<IActionResult> LecturerClaim(IFormFile supportDoc, string lecturerName, decimal hoursWorked, decimal hourlyRate, string notes)
         {
-            if (string.IsNullOrWhiteSpace(lecturerName) || hoursWorked <= 0 || hourlyRate < 0)
+            // Validate basic inputs
+            if (string.IsNullOrWhiteSpace(lecturerName))
             {
-                ModelState.AddModelError(string.Empty, "Please provide valid lecturer name, hours and rate.");
+                ModelState.AddModelError(nameof(lecturerName), "Lecturer name is required.");
+            }
+            if (hoursWorked <= 0m)
+            {
+                ModelState.AddModelError(nameof(hoursWorked), "Hours worked must be greater than 0.");
+            }
+            if (hourlyRate < 0m)
+            {
+                ModelState.AddModelError(nameof(hourlyRate), "Hourly rate cannot be negative.");
+            }
+
+            if (!ModelState.IsValid)
+            {
                 return View();
             }
 
@@ -41,38 +54,47 @@ namespace CMCSApp.Controllers
             {
                 if (supportDoc.Length == 0 || supportDoc.Length > _fileSizeLimit)
                 {
-                    ModelState.AddModelError(string.Empty, "File is empty or exceeds 5 MB.");
+                    ModelState.AddModelError("supportDoc", "File is empty or exceeds 5 MB.");
                     return View();
                 }
 
                 var ext = Path.GetExtension(supportDoc.FileName).ToLowerInvariant();
                 if (!_permittedExtensions.Contains(ext))
                 {
-                    ModelState.AddModelError(string.Empty, "Unsupported file type. Allowed: .pdf, .docx, .xlsx.");
+                    ModelState.AddModelError("supportDoc", "Unsupported file type. Allowed: .pdf, .docx, .xlsx.");
                     return View();
                 }
 
+                // Ensure uploads folder exists
                 var wwwRoot = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
                 var uploadsPath = Path.Combine(wwwRoot, _uploadFolder);
                 if (!Directory.Exists(uploadsPath)) Directory.CreateDirectory(uploadsPath);
 
+                // Create a safe, unique filename
                 var uniqueName = $"{Guid.NewGuid()}{ext}";
                 var filePath = Path.Combine(uploadsPath, uniqueName);
 
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                try
                 {
-                    await supportDoc.CopyToAsync(stream);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await supportDoc.CopyToAsync(stream);
+                    }
+                    savedFileName = uniqueName;
                 }
-
-                savedFileName = uniqueName;
+                catch
+                {
+                    ModelState.AddModelError("supportDoc", "An error occurred while saving the file.");
+                    return View();
+                }
             }
 
             var claim = new Claim
             {
-                LecturerName = lecturerName,
+                LecturerName = lecturerName.Trim(),
                 HoursWorked = hoursWorked,
                 HourlyRate = hourlyRate,
-                Notes = notes,
+                Notes = string.IsNullOrWhiteSpace(notes) ? null : notes.Trim(),
                 DocumentFileName = savedFileName,
                 Status = "Pending",
                 SubmittedAt = DateTime.UtcNow
@@ -87,7 +109,10 @@ namespace CMCSApp.Controllers
 
         public IActionResult CoordinatorApproval()
         {
-            var pending = _db.Claims.Where(c => c.Status == "Pending").OrderBy(c => c.SubmittedAt).ToList();
+            var pending = _db.Claims
+                .Where(c => c.Status == "Pending")
+                .OrderBy(c => c.SubmittedAt)
+                .ToList();
             return View(pending);
         }
 
@@ -119,7 +144,9 @@ namespace CMCSApp.Controllers
 
         public IActionResult ClaimStatus()
         {
-            var all = _db.Claims.OrderByDescending(c => c.SubmittedAt).ToList();
+            var all = _db.Claims
+                .OrderByDescending(c => c.SubmittedAt)
+                .ToList();
             return View(all);
         }
     }

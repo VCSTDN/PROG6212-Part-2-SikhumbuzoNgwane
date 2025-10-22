@@ -1,9 +1,10 @@
-using CMCSApp.Data;
+using System.Globalization;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
+using Microsoft.EntityFrameworkCore;
+using CMCSApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,18 @@ else
 
 app.UseHttpsRedirection();
 app.UseStaticFiles(); // serve wwwroot
+
+// Set application culture to South Africa (en-ZA) so currency formatting uses R
+var cultureInfo = new CultureInfo("en-ZA");
+var requestCulture = new RequestCulture(cultureInfo);
+var supportedCultures = new[] { cultureInfo };
+
+app.UseRequestLocalization(new RequestLocalizationOptions
+{
+    DefaultRequestCulture = requestCulture,
+    SupportedCultures = supportedCultures,
+    SupportedUICultures = supportedCultures
+});
 
 app.UseRouting();
 app.UseAuthorization();

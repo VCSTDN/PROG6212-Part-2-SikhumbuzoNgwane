@@ -12,7 +12,7 @@ namespace CMCSApp.Models
         public string LecturerName { get; set; }
 
         [Required]
-        public int HoursWorked { get; set; }
+        public decimal HoursWorked { get; set; }
 
         [Required, DataType(DataType.Currency)]
         public decimal HourlyRate { get; set; }

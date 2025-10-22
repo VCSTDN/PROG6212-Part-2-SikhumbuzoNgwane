@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace CMCSPrototype.Controllers
+namespace CMCSApp.Controllers
 {
     public class HomeController : Controller
     {

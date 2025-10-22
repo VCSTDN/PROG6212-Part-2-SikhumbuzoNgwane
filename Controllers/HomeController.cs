@@ -29,7 +29,6 @@ namespace CMCSApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> LecturerClaim(IFormFile supportDoc, string lecturerName, decimal hoursWorked, decimal hourlyRate, string notes)
         {
-            // Validate basic inputs
             if (string.IsNullOrWhiteSpace(lecturerName))
             {
                 ModelState.AddModelError(nameof(lecturerName), "Lecturer name is required.");
@@ -65,12 +64,10 @@ namespace CMCSApp.Controllers
                     return View();
                 }
 
-                // Ensure uploads folder exists
                 var wwwRoot = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
                 var uploadsPath = Path.Combine(wwwRoot, _uploadFolder);
                 if (!Directory.Exists(uploadsPath)) Directory.CreateDirectory(uploadsPath);
 
-                // Create a safe, unique filename
                 var uniqueName = $"{Guid.NewGuid()}{ext}";
                 var filePath = Path.Combine(uploadsPath, uniqueName);
 
@@ -140,6 +137,36 @@ namespace CMCSApp.Controllers
                 await _db.SaveChangesAsync();
             }
             return RedirectToAction(nameof(CoordinatorApproval));
+        }
+
+        [HttpPost]
+        public async Task<JsonResult> ApproveAjax(int id)
+        {
+            var claim = await _db.Claims.FindAsync(id);
+            if (claim == null)
+            {
+                return Json(new { success = false, message = "Claim not found." });
+            }
+
+            claim.Status = "Approved";
+            await _db.SaveChangesAsync();
+
+            return Json(new { success = true, status = claim.Status });
+        }
+
+        [HttpPost]
+        public async Task<JsonResult> RejectAjax(int id)
+        {
+            var claim = await _db.Claims.FindAsync(id);
+            if (claim == null)
+            {
+                return Json(new { success = false, message = "Claim not found." });
+            }
+
+            claim.Status = "Rejected";
+            await _db.SaveChangesAsync();
+
+            return Json(new { success = true, status = claim.Status });
         }
 
         public IActionResult ClaimStatus()

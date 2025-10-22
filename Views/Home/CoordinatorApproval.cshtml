@@ -1,28 +1,130 @@
-﻿@{
+﻿@model IEnumerable<CMCSApp.Models.Claim>
+@{
     ViewData["Title"] = "Coordinator Approval";
 }
 
 <h2>Verify and Approve Claims</h2>
-<table class="table table-bordered">
+
+@Html.AntiForgeryToken()
+
+<div id="alerts"></div>
+
+<table class="table table-bordered" id="claimsTable">
     <thead>
         <tr>
+            <th>Claim ID</th>
             <th>Lecturer</th>
             <th>Hours</th>
             <th>Rate</th>
-            <th>Documents</th>
+            <th>Payout</th>
+            <th>Notes</th>
+            <th>Document</th>
             <th>Action</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>John Doe</td>
-            <td>20</td>
-            <td>R500</td>
-            <td><a href="#">View</a></td>
-            <td>
-                <button class="btn btn-success">Approve</button>
-                <button class="btn btn-danger">Reject</button>
-            </td>
-        </tr>
+        @foreach (var c in Model)
+        {
+            <tr id="row-@c.ClaimId" data-id="@c.ClaimId">
+                <td class="col-id">@c.ClaimId</td>
+                <td>@c.LecturerName</td>
+                <td>@c.HoursWorked</td>
+                <td>@String.Format("{0:C}", c.HourlyRate)</td>
+                <td>@String.Format("{0:C}", c.TotalPayout)</td>
+                <td>@c.Notes</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(c.DocumentFileName))
+                    {
+                        <a href="~/uploads/@c.DocumentFileName" target="_blank">View</a>
+                    }
+                </td>
+                <td class="col-action">
+                    <button class="btn btn-success btn-sm btn-approve" data-id="@c.ClaimId">Approve</button>
+                    <button class="btn btn-danger btn-sm btn-reject" data-id="@c.ClaimId" style="margin-left:6px;">Reject</button>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        (function () {
+            function getAntiForgeryToken() {
+                var tokenElem = document.querySelector('input[name="__RequestVerificationToken"]');
+                return tokenElem ? tokenElem.value : null;
+            }
+
+            function showAlert(message, type) {
+                var wrapper = document.createElement('div');
+                wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">'
+                    + message
+                    + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
+                document.getElementById('alerts').appendChild(wrapper);
+            }
+
+            async function postForm(url, data) {
+                var params = new URLSearchParams();
+                for (var key in data) {
+                    params.append(key, data[key]);
+                }
+                var headers = {};
+                var token = getAntiForgeryToken();
+                if (token) {
+                    headers['RequestVerificationToken'] = token;
+                }
+
+                var res = await fetch(url, {
+                    method: 'POST',
+                    headers: headers,
+                    body: params
+                });
+
+                return await res.json();
+            }
+
+            function updateRowStatus(id, newStatus) {
+                var row = document.getElementById('row-' + id);
+                if (!row) return;
+                var actionCell = row.querySelector('.col-action');
+                actionCell.innerHTML = '<span class="badge ' + (newStatus === "Approved" ? "bg-success" : "bg-danger") + '">' + newStatus + '</span>';
+            }
+
+            document.querySelectorAll('.btn-approve').forEach(function (btn) {
+                btn.addEventListener('click', async function (e) {
+                    var id = btn.getAttribute('data-id');
+                    if (!confirm('Approve claim #' + id + '?')) return;
+                    try {
+                        var result = await postForm('@Url.Action("ApproveAjax", "Home")', { id: id });
+                        if (result && result.success) {
+                            updateRowStatus(id, result.status);
+                            showAlert('Claim #' + id + ' approved.', 'success');
+                        } else {
+                            showAlert('Error approving claim #' + id + ': ' + (result && result.message ? result.message : 'Unknown error'), 'danger');
+                        }
+                    } catch (ex) {
+                        showAlert('Network error while approving claim #' + id, 'danger');
+                    }
+                });
+            });
+
+            document.querySelectorAll('.btn-reject').forEach(function (btn) {
+                btn.addEventListener('click', async function (e) {
+                    var id = btn.getAttribute('data-id');
+                    if (!confirm('Reject claim #' + id + '?')) return;
+                    try {
+                        var result = await postForm('@Url.Action("RejectAjax", "Home")', { id: id });
+                        if (result && result.success) {
+                            updateRowStatus(id, result.status);
+                            showAlert('Claim #' + id + ' rejected.', 'warning');
+                        } else {
+                            showAlert('Error rejecting claim #' + id + ': ' + (result && result.message ? result.message : 'Unknown error'), 'danger');
+                        }
+                    } catch (ex) {
+                        showAlert('Network error while rejecting claim #' + id, 'danger');
+                    }
+                });
+            });
+        })();
+    </script>
+}

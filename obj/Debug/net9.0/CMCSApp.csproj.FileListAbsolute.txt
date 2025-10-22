@@ -207,8 +207,6 @@ C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\compressed\mg2i3rfpid-2z0n
 C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\compressed\t0gm8p5ozz-muycvpuwrr.gz
 C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\compressed\vlphbviac5-87fc7y1x7t.gz
 C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\compressed\27vre6rj09-mlv21k5csn.gz
-C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\compressed\n7j2mltyyd-pa0bdpg8i8.gz
-C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\compressed\8l7u9rbo87-pa0bdpg8i8.gz
 C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\staticwebassets.development.json
@@ -220,3 +218,5 @@ C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\refint\CMCSApp.dll
 C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\CMCSApp.pdb
 C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\CMCSApp.genruntimeconfig.cache
 C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\ref\CMCSApp.dll
+C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\compressed\n7j2mltyyd-17hsuh9my6.gz
+C:\Users\Family\source\repos\CMCSApp\obj\Debug\net9.0\compressed\8l7u9rbo87-17hsuh9my6.gz

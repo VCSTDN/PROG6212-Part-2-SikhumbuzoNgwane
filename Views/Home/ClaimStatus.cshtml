@@ -12,6 +12,7 @@
             <th>Lecturer</th>
             <th>Hours</th>
             <th>Rate</th>
+            <th>Payout</th>
             <th>Document</th>
             <th>Status</th>
             <th>Submitted At (UTC)</th>
@@ -25,6 +26,7 @@
                 <td>@c.LecturerName</td>
                 <td>@c.HoursWorked</td>
                 <td>@String.Format("{0:C}", c.HourlyRate)</td>
+                <td>@String.Format("{0:C}", c.TotalPayout)</td>
                 <td>
                     @if (!string.IsNullOrEmpty(c.DocumentFileName))
                     {

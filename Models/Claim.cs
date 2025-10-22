@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CMCSApp.Models
 {
@@ -20,12 +21,14 @@ namespace CMCSApp.Models
         [StringLength(1000)]
         public string Notes { get; set; }
 
-        // stored relative to wwwroot/uploads
         public string DocumentFileName { get; set; }
 
         [Required, StringLength(20)]
         public string Status { get; set; } = "Pending";
 
         public DateTime SubmittedAt { get; set; } = DateTime.UtcNow;
+
+        [NotMapped]
+        public decimal TotalPayout => Math.Round(HoursWorked * HourlyRate, 2);
     }
 }

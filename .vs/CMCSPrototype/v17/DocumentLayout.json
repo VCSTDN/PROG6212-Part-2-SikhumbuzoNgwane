@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Family\\source\\repos\\CMCSApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\home\\coordinatorapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\home\\coordinatorapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\home\\claimstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\home\\claimstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\home\\lecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\home\\lecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\home\\coordinatorapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\home\\coordinatorapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CE96840-9013-4E34-8080-F68EA5EC0DA2}|CMCSApp.csproj|c:\\users\\family\\source\\repos\\cmcsapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,47 +86,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-22T17:31:58.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "CoordinatorApproval.cshtml",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\CoordinatorApproval.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\CoordinatorApproval.cshtml",
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\CoordinatorApproval.cshtml",
               "RelativeToolTip": "Views\\Home\\CoordinatorApproval.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T18:33:51.304Z"
+              "WhenOpened": "2025-09-17T18:33:51.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-22T17:31:39.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LecturerClaim.cshtml",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\LecturerClaim.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\LecturerClaim.cshtml",
@@ -139,26 +116,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwJgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T18:04:09.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ClaimStatus.cshtml",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\ClaimStatus.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ClaimStatus.cshtml",
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\ClaimStatus.cshtml",
               "RelativeToolTip": "Views\\Home\\ClaimStatus.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAApwBUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-17T18:40:19.398Z",
               "EditorCaption": ""
@@ -171,35 +148,23 @@
               "RelativeDocumentMoniker": "Models\\Claim.cs",
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Models\\Claim.cs",
               "RelativeToolTip": "Models\\Claim.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T17:39:27.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAApwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T18:44:31.977Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-22T17:34:12.532Z"
             },
             {
               "$type": "Document",
@@ -209,21 +174,59 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T18:10:14.414Z"
+              "WhenOpened": "2025-09-17T18:10:14.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T18:04:25.07Z"
+              "WhenOpened": "2025-09-17T18:04:25.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T17:31:39.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T17:31:58.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T17:34:12.532Z"
             },
             {
               "$type": "Document",

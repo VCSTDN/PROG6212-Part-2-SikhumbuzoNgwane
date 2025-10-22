@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMCSApp", "CMCSApp.csproj", "{4CE96840-9013-4E34-8080-F68EA5EC0DA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMCSApp.Tests", "..\CMCSAppTests\CMCSApp.Tests.csproj", "{C3751B1E-E87F-4E32-81E6-1C1E9CD6EDBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4CE96840-9013-4E34-8080-F68EA5EC0DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CE96840-9013-4E34-8080-F68EA5EC0DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CE96840-9013-4E34-8080-F68EA5EC0DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3751B1E-E87F-4E32-81E6-1C1E9CD6EDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3751B1E-E87F-4E32-81E6-1C1E9CD6EDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3751B1E-E87F-4E32-81E6-1C1E9CD6EDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3751B1E-E87F-4E32-81E6-1C1E9CD6EDBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

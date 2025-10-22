@@ -202,7 +202,8 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-22T17:31:39.323Z"
+              "WhenOpened": "2025-10-22T17:31:39.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -212,9 +213,10 @@
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwAIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-22T17:31:58.265Z"
+              "WhenOpened": "2025-10-22T17:31:58.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -226,7 +228,8 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-22T17:34:12.532Z"
+              "WhenOpened": "2025-10-22T17:34:12.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -238,7 +241,8 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-22T17:33:37.209Z"
+              "WhenOpened": "2025-10-22T17:33:37.209Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -250,7 +254,8 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:40:09.072Z"
+              "WhenOpened": "2025-10-22T17:40:09.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -262,7 +267,8 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-22T17:34:18.119Z"
+              "WhenOpened": "2025-10-22T17:34:18.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -272,9 +278,10 @@
               "RelativeDocumentMoniker": "CMCSApp.csproj",
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\CMCSApp.csproj",
               "RelativeToolTip": "CMCSApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-22T17:27:19.464Z"
+              "WhenOpened": "2025-10-22T17:27:19.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -286,7 +293,8 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-22T17:34:20.702Z"
+              "WhenOpened": "2025-10-22T17:34:20.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -297,7 +305,8 @@
               "ToolTip": "C:\\Users\\Family\\source\\repos\\CMCSApp\\CMCSApp.csproj",
               "RelativeToolTip": "CMCSApp.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-22T17:28:04.17Z"
+              "WhenOpened": "2025-10-22T17:28:04.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -309,7 +318,8 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:31:48.51Z"
+              "WhenOpened": "2025-10-22T17:31:48.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -321,7 +331,8 @@
               "RelativeToolTip": "wwwroot\\uploads\\.gitkeep",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-22T17:25:43.988Z"
+              "WhenOpened": "2025-10-22T17:25:43.988Z",
+              "EditorCaption": ""
             }
           ]
         }
